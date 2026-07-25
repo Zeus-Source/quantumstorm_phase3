@@ -1,0 +1,9 @@
+{
+  "cost": {
+    "isa_depth": 159,
+    "isa_two_qubit_gates": 111,
+    "isa_two_qubit_depth": 79
+  },
+  "best_jh": 0.2,
+  "best_r": 0.4819571909054679
+}

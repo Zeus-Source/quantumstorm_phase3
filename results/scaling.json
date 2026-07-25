@@ -1,0 +1,34 @@
+[
+  {
+    "n_qubits": 4,
+    "readout_dim": 10,
+    "auprc_mean": 0.2402,
+    "auprc_ci": 0.015,
+    "eds_mean": -0.6216,
+    "eds_ci": 0.0
+  },
+  {
+    "n_qubits": 6,
+    "readout_dim": 21,
+    "auprc_mean": 0.2946,
+    "auprc_ci": 0.012,
+    "eds_mean": -0.3855,
+    "eds_ci": 0.0
+  },
+  {
+    "n_qubits": 10,
+    "readout_dim": 55,
+    "auprc_mean": 0.3850,
+    "auprc_ci": 0.018,
+    "eds_mean": -0.6583,
+    "eds_ci": 0.0
+  },
+  {
+    "n_qubits": 16,
+    "readout_dim": 136,
+    "auprc_mean": 0.4561,
+    "auprc_ci": 0.024,
+    "eds_mean": -0.9316,
+    "eds_ci": 0.008
+  }
+]

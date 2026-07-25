@@ -1,0 +1,25 @@
+{
+  "backend": "aws:rigetti:qpu:cepheus-1-108q",
+  "n_qubits": 16,
+  "n_steps": 2,
+  "p_connect": 0.5,
+  "best_jh": 0.2,
+  "best_r": 0.4763,
+  "shots": 4096,
+  "n_test": 10,
+  "n_extremes": 3,
+  "readout_corr_hw_vs_sim": 0.04229889593979151,
+  "readout_mae_hw_vs_sim": 0.18201859295368195,
+  "metrics_sim": {
+    "auroc": 0.8571428571428571,
+    "auprc": 0.8333333333333333,
+    "eds": -0.4961407271476077,
+    "bss99": 0.6544024959812198
+  },
+  "metrics_hw": {
+    "auroc": 0.47619047619047616,
+    "auprc": 0.38690476190476186,
+    "eds": -1.0,
+    "bss99": 0.5144758108022156
+  }
+}

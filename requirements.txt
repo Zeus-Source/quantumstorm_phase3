@@ -1,0 +1,27 @@
+# ---- Core (CPU, always needed) ----
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+pandas>=2.0
+matplotlib>=3.7
+pennylane>=0.35
+statsmodels>=0.14
+
+# ---- Document Compilation & Formatting (needed for writeup conversion) ----
+markdown>=3.4
+xhtml2pdf>=0.2.10
+
+# ---- Optional: GPU acceleration (statevector reservoir) ----
+# cupy-cuda12x         # install the wheel matching your CUDA version on qBraid GPU
+
+# ---- Optional: real ERA5 download (else synthetic fallback runs) ----
+# cdsapi
+# xarray
+# netCDF4
+# cfgrib
+# pyarrow              # only if you prefer parquet cache over pickle
+
+# ---- Optional: real-hardware execution via qBraid / IBM / IonQ ----
+# pennylane-qiskit     # IBM backends
+# amazon-braket-pennylane-plugin
+# qbraid
